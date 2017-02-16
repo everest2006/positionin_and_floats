@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {height: 2000px; }
+section{
+    width: 111px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 0 10px 10px 0;
+}
+.rectangle_1, .rectangle_2, .rectangle_3 {
+    width: 523px;
+    height: 750px;
+    border: 2px solid black;
+}
+
+.rectangle_1 {
+    position: absolute;
+    top: 200px;
+    background: #ebebeb;
+  }
+
+.rectangle_2 {
+    position: absolute;
+    left: 21px;
+    top: 220px;
+    background: #cccccc ;
+}
+
+.rectangle_3 {
+    position: absolute;
+    left: 40px;
+    top: 239px;
+    background: #acacac;
+}
+
+.title{
+    margin-left: 31px;
+    margin-top: 43px;
+    margin-bottom: 14px;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+    margin-right: 31px;
+    margin-left: 31px;
+}
+
+.cup {
+    float: left;
+    width: 207px;
+    height: 111px;
+    margin-left: 31px;
+    margin-right: 21px;
+    margin-bottom: 4px;
+}
+
+.funny {
+    float: right;
+    width: 140px;
+    height: 140px;
+    margin-right: 31px;
+}
+
+.title2 {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+figure img {
+    margin-left: 31px;
+    margin-right: 31px;
+}
+
+figure img:nth-child(-n+2) {
+    margin-bottom: 14px;
+}
+
+.footer {
+    font-size: 9px;
+    margin-top: 28px;
+    text-align: center;
+}
